@@ -6,7 +6,7 @@ const projectRouter = require('./projectRouter');
 const actionRouter = require('./actionRouter');
 
 server.get('/', (req, res) => {
-  res.send(`<h2>Welcome to my API for this Sprint. Lambda Rules!!</h2>`);
+  res.send(`Welcome to my API for this Sprint. Lambda Rules!!`);
 });
 
 //Still need these otherwise req.body is always undefined

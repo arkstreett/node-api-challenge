@@ -4,7 +4,10 @@
   "description": "Node API Challenge",
   "main": "index.js",
   "scripts": 
-    { "start": "node index.js" },
+    { 
+      "start": "node index.js",
+      "server": "nodemon server"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/node-api-challenge.git"
